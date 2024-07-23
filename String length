@@ -1,0 +1,13 @@
+with out using bulid in function to find a string length.
+class Solution {
+    public static void main(String[] args){
+    String s="Madam";
+    System.out.println("The String: "+s);
+    int count=0;
+    for(char i:s.toCharArray())
+    {
+        count++;
+    }
+    System.out.print("The lenght of String: "+count);
+     }
+}
